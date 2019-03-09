@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Home"
+    url: https://zoekoch.github.io
+  - title: "Résumé"
+    url: /assets/koch-resume.pdf
+  - title: "About Me"
+    url: /about/
+  - title: "Projects"
+    url: /portfolio/
