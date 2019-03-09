@@ -14,7 +14,7 @@ feature_row:
     url: _portfolio/skincare
     btn_class: "btn--light-outline" 
     btn_label: "See more"    
-  - image_path: assets/images/icons/microbes-icon.png
+  - image_path: assets/images/icons/microbes-icon.jpg
     alt: " "
     title: "Masking Microbes"
     excerpt: "A Mask R-CNN based image classifier for in vitro microbes. 

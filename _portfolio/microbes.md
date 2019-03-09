@@ -3,7 +3,7 @@ layout: single
 title: "Masking Microbes"
 excerpt: "Using Mask R-CNN to find microbe colonies."
 header:
-  image: /assets/images/microbes/macconkey.png
+  image: /assets/images/microbes/microbe-header.png
 author_profile: true
 sidebar:
   - text: "<a href='https://github.com/ZoeKoch/microbe-masking/blob/master/inspect_balloon_model.ipynb'>View the project's code</a>"
@@ -14,15 +14,15 @@ tags:
   - instance segmentation
   - Python
 petrigallery:
-  - url: /assets/images/microbes/macconkey.png
-  - url: /assets/images/microbes/blood.png
+  - image_path: /assets/images/microbes/macconkey.png
+  - image_path: /assets/images/microbes/blood.png
 labelgallery:
-  - url: /assets/images/microbes/labeling.png
-  - url: /assets/images/microbes/labeled.png
+  - image_path: /assets/images/microbes/labeling.png
+  - image_path: /assets/images/microbes/labeled.png
 masksgallery:
-  - url: /assets/images/microbes/mask1.png
-  - url: /assets/images/microbes/mask2.png 
-  - url: /assets/images/microbes/mask3.png 
+  - image_path: /assets/images/microbes/mask1.png
+  - image_path: /assets/images/microbes/mask2.png 
+  - image_path: /assets/images/microbes/mask3.png 
 ---
 
 # Instance Segmentation in Urine Cultures
@@ -37,11 +37,14 @@ Here, we show that Mask R-CNN has potential for use in not only classifying the 
 
 ### Task Definition
 
-The University of Vermont Medical Center has taken 83 images of urine cultures grown on both MacConkey and blood agar, with microbe types classified by a trained medical professional. Images are taken using a bucket of light approach for better quality.[^2] Each image was divided into , then annotated by hand using VGG Image Annotator. 
+The University of Vermont Medical Center has taken 83 images of urine cultures grown on both MacConkey and blood agar, with microbe types classified by a trained medical professional. Images are taken using a bucket of light approach for better quality.[^2]  
 
 {% include gallery id="petrigallery" caption = "Examples of images in the dataset. The MacConkey agar is pink, while the blood is red."%}
 
-{% include gallery id="labelgallery" caption = "VGG Image Annotator"%}
+Each Petri dish picture was split 8x8 to make 64 smaller images, for easier annotation and to reduce the ratio between colony size and image size. Images were then annotated by hand using VGG Image Annotator.
+
+{% include figure image_path="/assets/images/microbes/labeling.png" caption = "The VGG Image Annotator interface."%}
+{% include figure image_path="/assets/images/microbes/labeled.png" caption = "Creating masks to use for training."%}
 
 Although, ultimately, only the microbe type and microbe count are used for medical diagnoses, it may be valuable in future research to also be able to segment each instance of a microbe colony. This data can then be used to model how bacteria grow and compete for resources in vitro. Therefore, this is not only a classification or counting problem, but an instance segmentation problem.
 
@@ -57,7 +60,7 @@ Mask R-CNN, developed by Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gi
 
 ### Methodology
 
-Each Petri dish picture was split 8x8 to make 64 smaller images, for easier annotation and to reduce the ratio between colony size and image size. Half of each culture picture is used for training, a quarter for validation, and a quarter for testing. Due to sparseness of data and time constraints, only MacConkey-grown cultures of the 4 types acinetobacter baumanni complex, enterobacter cloacae complex, escherichia coli, and klebsiella pneumoniae were used. Pixel-by-pixel labels of where microbe colonies are are labeled by hand. The boxes around each microbe colony are generated from those annotations. I then used Matterport’s Mask R-CNN model, starting with weights pretrained on the COCO dataset.[^4] Since this model was already quite well trained, a slow learning rate was used.
+Each Petri dish picture was split into 64 smaller images, for easier annotation and to reduce the ratio between colony size and image size. Half of each culture picture is used for training, a quarter for validation, and a quarter for testing. Due to sparseness of data and time constraints, only MacConkey-grown cultures of the 4 types acinetobacter baumanni complex, enterobacter cloacae complex, escherichia coli, and klebsiella pneumoniae were used. Pixel-by-pixel labels of where microbe colonies are are labeled by hand. The boxes around each microbe colony are generated from those annotations. I then used Matterport’s Mask R-CNN model, starting with weights pretrained on the COCO dataset.[^4] Since this model was already quite well trained, a slow learning rate was used.
 
 {% include figure image_path="/assets/images/microbes/microbes-table.png"%}
 
@@ -66,7 +69,9 @@ Each Petri dish picture was split 8x8 to make 64 smaller images, for easier anno
 Accurately classifying and counting the number of colonies is the most important task, and fortunately, also the easiest to measure. A simple precision metric can be used for both. It’s important to note that the pixel-by-pixel mask that is used to train the model is generated by a person, and therefore is, itself, fairly inaccurate. Densely packed microbe colonies were difficult to separate into individual colonies, even for hulmans. Comparing the mask that the model generates to that generated by a person therefore would not be the best way to measure accuracy. 
 Currently, this methodology is not classifying up to a medical standard. The classification success is less than 85%, making it worse than patient data such as age and gender at predicting microbe type. Therefore, multiple models were trained, specific to each microbe class. Average precision scores for these models ranged from 62 to 75, while average error count per image was quite low. However, many of these images had no microbe colonies at all, which likely deflated the error count. 
 
-{% include gallery id="masksgallery" caption = "Examples of the masks produced"%}
+{% include figure image_path="/assets/images/microbes/mask1.png"%}
+{% include figure image_path="/assets/images/microbes/mask2.png"%}
+{% include figure image_path="/assets/images/microbes/mask3.png" caption = "Examples of the masks produced" %}
 
 ### Discussion
 Classification of microbes is a difficult task for current CNNs. They function on the premise that the visible region of the instance of interest contains the necessary information to classify it. However, for individual microbe colonies, the surrounding colonies are often just as important in identifying what they are. Microbes vary in structure based on stress, crowdedness, etc. These images were taken after being grown in a temperature-controlled, nutrient-rich environment for 48 hours, and therefore have more uniformity than is typical for microbes, but were still difficult to classify. Human beings can visually choose the most distinctively easy to classify sections of the Petri dish, and make judgments from there. Algorithms that take context into account, such as proximity to particular classes known to be frequently nearby, may have more success. Microbial classification, counting, and segmentation can be automated with machine learning techniques. Mask R-CNN has much potential in this area.

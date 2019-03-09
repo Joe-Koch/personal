@@ -3,7 +3,7 @@ title: "Skincare Ingredients"
 excerpt: "Comparing Eastern and Western skincare ingredients."
 layout: single
 header:
-  image: /assets/images/skincare/skinhead.svg
+  image: /assets/images/skincare/skinhead.png
 sidebar:
   - text: "<a href='https://github.com/ZoeKoch/skincare-ingredients/blob/master/skincare_visualization.ipynb'>View the project's code</a>"
 author_profile: true
@@ -18,7 +18,7 @@ tags:
 # Comparing Eastern and Western Approaches to Skincare
 
 
-[See the visualization here.](zoekoch.github.io/assets/gexf-js-master)
+[See the visualization here.](https://zoekoch.github.io/assets/gexf-js-master/)
 
 
 ## Background
@@ -66,11 +66,8 @@ Sun damage is taken more seriously in Asia. While the US uses an “SPF” ratin
 
 There were many similarities across the Watsons and Walgreens skincare products. Both markets saw similar rates of scientific words like “hydrolyzed,” and nature-based words like “leaf,” “root,” “peel.” Both stores sorted their skincare products into similar groups like cleansers, moisturizers, etc., and had similar proportions of products across these groups, though Watsons offers proportionally nearly twice as many masks and scrubs. We also see extremely similar numbers of ingredients per product, with the median of 28 for both groups. 
 
-<figure class="half">
-    <a href="/assets/images/skincare/producttypes.png"><img src="/assets/images/skincare/producttypes.png"></a>
-    <a href="/assets/images/skincare/numberingredients.jpg"><img src="/assets/images/skincare/numberingredients.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
+{% include figure image_path="/assets/images/skincare/producttypes.png" %}
+{% include figure image_path="/assets/images/skincare/numberingredients.jpg" %}
 
 Rank-size distributions often follow a power law distribution,[^5] and indeed we see similar behavior in skincare ingredients, plotted on a log-log scale in the graph below. Interpreting this a bit, the 1st-ranked ingredient, showing up in very nearly every product, was water. It was present in hundreds of times more products than the least common ingredients, which might be in only a single product. This pattern may emerge as ingredients that are well known and available become more commonly used in skincare products, which then causes them to become even more well known and available. 
 
@@ -80,11 +77,8 @@ Rank-size distributions often follow a power law distribution,[^5] and indeed we
 
 Further highlighting the differences in Eastern and Western approaches to sun protection, nearly five times as many Watsons products were labeled as "sun care." Oil-based moisturizers are trickling into the US market, but are still not as popular, with roughly 8 times as many moisturizers sold by Watsons being categorized as oils. 
 
-<figure class="half">
-    <a href="/assets/images/skincare/suncaretrue.png"><img src="/assets/images/skincare/suncaretrue.png"></a>
-    <a href="/assets/images/skincare/numberingredients.jpg"><img src="/assets/images/skincare/numberingredients.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
+{% include figure image_path="/assets/images/skincare/suncaretrue.png" %}
+{% include figure image_path="/assets/images/skincare/numberingredients.jpg" %}
 
 ## Conclusion
 
