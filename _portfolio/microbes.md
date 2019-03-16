@@ -3,11 +3,12 @@ layout: single
 title: "Masking Microbes"
 excerpt: "Using Mask R-CNN to find microbe colonies."
 header:
-  image: /assets/images/microbes/microbe-header.png
+  overlay_image: /assets/images/microbes/microbe-header.png
 author_profile: true
 sidebar:
   - text: "<a href='https://github.com/ZoeKoch/microbe-masking/blob/master/inspect_balloon_model.ipynb'>View the project's code</a>"
 toc: true
+related: true
 tags:
   - neural network
   - image analysis
@@ -22,7 +23,7 @@ labelgallery:
 masksgallery:
   - image_path: /assets/images/microbes/mask1.png
   - image_path: /assets/images/microbes/mask2.png 
-  - image_path: /assets/images/microbes/mask3.png 
+  - image_path: /assets/images/microbes/mask3.png graph
 ---
 
 # Instance Segmentation in Urine Cultures

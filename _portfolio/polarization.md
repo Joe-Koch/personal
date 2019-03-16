@@ -3,7 +3,7 @@ layout: single
 title: "Polarization"
 excerpt: "A simulation of polarization in the scientific community."
 header:
-  image: /assets/images/polarization/large25.gif
+  overlay_image: /assets/images/polarization/large25.gif
 author_profile: true
 sidebar:
   - text: "<a href='https://github.com/ZoeKoch/polarization/blob/master/fastpolarize.m'>View the project's code</a>"
