@@ -1,0 +1,485 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.15.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Reddit Generator - Zoë Koch</title>
+<meta name="description" content="Teaching a machine to shitpost.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Zoë Koch">
+<meta property="og:title" content="Reddit Generator">
+<meta property="og:url" content="http://localhost:4000/_portfolio/comment-generator/">
+
+
+  <meta property="og:description" content="Teaching a machine to shitpost.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/_portfolio/comment-generator/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Zoë Koch",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Zoë Koch Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">Zoë Koch</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://zoekoch.github.io" >Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/assets/koch-resume.pdf" >Résumé</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About Me</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/" >Projects</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/redwood-selfie.jpg" alt="Zoë Koch" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Zoë Koch</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Machine Learning / Data Science / Storytelling
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/zoe-koch-76431063/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          
+        
+          
+            <li><a href="https://github.com/ZoeKoch" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="mailto:kochzoe@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      <p><a href="https://github.com/ZoeKoch/reddit-comment-generator/blob/master/generator.ipynb">View the project’s code</a></p>
+
+      
+    
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Reddit Generator">
+    <meta itemprop="description" content="Teaching a machine to shitpost.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Reddit Generator
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#training-a-machine-to-generate-reddit-comments">Training a machine to generate reddit comments</a>
+    <ul>
+      <li><a href="#the-data">The Data</a></li>
+      <li><a href="#the-model">The Model</a></li>
+      <li><a href="#further-experiments">Further experiments</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h1 id="training-a-machine-to-generate-reddit-comments">Training a machine to generate reddit comments</h1>
+
+<h2 id="the-data">The Data</h2>
+
+<p>The model was trained on all reddit comments from May 2015, downloaded from <a href="https://www.kaggle.com/reddit/reddit-comments-may-2015">Kaggle</a>. Reddit is a global site, so some of the comments aren’t written in the Latin alphabet, and more aren’t written in English. For this assignment, I’m only using the parts of comments written in ASCII characters. The comments are then broken into 40-length character chunks, which are put into a one hot encoding for each character. Time/CPU constraints meant restricting this dataset further, to ~800 comments. Full use of the dataset would’ve yielded better results.</p>
+
+<h2 id="the-model">The Model</h2>
+
+<p>The baseline architecture is an RNN, produced with Keras’s SimpleRNN built-in, with 128 layers, a bias, and ‘glorot_uniform’ initial weights, followed by a dense layer. The activation function was a softmax, and the optimizer was the Adam optimizer, with a learning rate of 0.001, and no decay. Loss was computed with categorical cross entropy. Training was done in batch sizes of 100.</p>
+
+<p>Example comment after 100 epochs:</p>
+
+<blockquote>
+  <p>. had wing tlike burspe buthas gheshite tea lonet mG tive pinis soperisupre of marwiend jest wurknt tadee shat at ofselly josld cetthey itwing/ oushonce jorg and if ke that them. N-_Ke?LI nge picpeabdernf whathithens ghe fery tee thare lorshesctine to thien afferemtenisher obvenat, ing thougking? I knoid fo(tke mponge. I faysh woutd ge dope ion Plot enostie so.. Shas’st cammonive ffyea conitt. .”</p>
+</blockquote>
+
+<figure class="">
+  <img src="/assets/images/reddit/loss1.png" alt="" />
+  
+</figure>
+
+<h2 id="further-experiments">Further experiments</h2>
+
+<p>We see the loss with half the number of hidden units and twice the number of hidden units, respectively.</p>
+
+<p>Half hidden units example:</p>
+<blockquote>
+  <p>halsat you mone soles arey”r thever ale  I gnt think eas wathe betiselry ways, de bats. YTlingead a mare nosterohe pactuth then aly tut as mine tifcind/be oust laly or tllith4 houchne therescorany that. Then tome bom. Sueds. Therwitteatpangiy lpocher on wact lik. M I Swivt redienthat soulican’s then afening and r oucl chey n hea teanet loke dore somalive out  hay donghise bo thipcrtbyine why uwost</p>
+</blockquote>
+
+<figure class="">
+  <img src="/assets/images/reddit/loss2.png" alt="" />
+  
+</figure>
+
+<p>Double hidden units example:</p>
+<blockquote>
+  <p>She the,.o
+nt? sole_t0Ps poug.tent would acsid tond preomero Ive poont5 gorselacen uaven Anare a le sheKqu. Pho fo you gols onen’s at     (feroraideo iI ctus) Georipr, I mave mLofis 1] st and _ling. Yt; me touebpores or thete aod to out tha wW scactoneld barangion d red inking go s but thay7el at on thlocreoblyoo at Yea lit?</p>
+</blockquote>
+
+<blockquote>
+  <p>I jusle shat and the woon pre, Doncerfer a tivend I don, wxer the hM ?.Eoe. </p>
+</blockquote>
+
+<figure class="">
+  <img src="/assets/images/reddit/loss3.png" alt="" />
+  
+</figure>
+
+<p>An LSTM model shows extremely similar results to the simple RNN in terms of loss function. Looking at the example text, I think it’s a bit better, with good apostrophe/comma use and some actual words in there.</p>
+
+<p>Example text:</p>
+
+<blockquote>
+  <p>. Meotwe sh helly I covena do bay whet and it are difit chone to she renn ppactimacke a simand in readind wet cande snay. ann bithan a but your eanhe done ald reasny weve tfio so I waysh a y uisteis con’t, twing a frempristmenarcald? I mintt bacle st ree pesieo hes liing wits thef eristmdish panot venuld go commait.. [ftot swe_t that Pauthe hin a dough suant in trend thally is wabes a lewet I cous</p>
+</blockquote>
+
+<figure class="">
+  <img src="/assets/images/reddit/loss4.png" alt="" />
+  
+</figure>
+
+<p>Finally, a GRU model appears to learn faster than either the simple RNN or LSTM model, and have a far lower loss function by the 100th epoch. However, its actual output seems comparable to the other models.</p>
+
+<p>Example output:</p>
+<blockquote>
+  <p>e ters for a thon bo chust intiiges way all Bnd and bewore. Thenascerusien. Yecarme that whet bathal nist to be whe Be somersinm follo cinpsciin. Itcone tisk!? Yele the Bodneven l atkinwt so woug that a buw ledo baving Mhat Ally fart a buthr on yha asde not makine o think wor haply bot commmont tore Shes dourd on yod onte bo heleibuy teandlise to gevaide bow heamd, now suas a not a jusp. Le a Bl’s</p>
+</blockquote>
+
+<figure class="">
+  <img src="/assets/images/reddit/loss5.png" alt="" />
+  
+</figure>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#generation" class="page__taxonomy-item" rel="tag">generation</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#neural-network" class="page__taxonomy-item" rel="tag">neural network</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#python" class="page__taxonomy-item" rel="tag">Python</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#text-data" class="page__taxonomy-item" rel="tag">text data</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/zoe-koch-76431063/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://github.com/ZoeKoch" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="mailto:kochzoe@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Zoë Koch. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

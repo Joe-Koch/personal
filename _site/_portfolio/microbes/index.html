@@ -1,0 +1,570 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.15.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Masking Microbes - Zoë Koch</title>
+<meta name="description" content="Using Mask R-CNN to find microbe colonies.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Zoë Koch">
+<meta property="og:title" content="Masking Microbes">
+<meta property="og:url" content="http://localhost:4000/_portfolio/microbes/">
+
+
+  <meta property="og:description" content="Using Mask R-CNN to find microbe colonies.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/microbes/microbe-header.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/_portfolio/microbes/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Zoë Koch",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Zoë Koch Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">Zoë Koch</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://zoekoch.github.io" >Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/assets/koch-resume.pdf" >Résumé</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About Me</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/" >Projects</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/microbes/microbe-header.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Masking Microbes
+
+        
+      </h1>
+      
+        <p class="page__lead">Using Mask R-CNN to find microbe colonies.
+</p>
+      
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/redwood-selfie.jpg" alt="Zoë Koch" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Zoë Koch</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Machine Learning / Data Science / Storytelling
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/zoe-koch-76431063/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          
+        
+          
+            <li><a href="https://github.com/ZoeKoch" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="mailto:kochzoe@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      <p><a href="https://github.com/ZoeKoch/microbe-masking/blob/master/inspect_balloon_model.ipynb">View the project’s code</a></p>
+
+      
+    
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Masking Microbes">
+    <meta itemprop="description" content="Using Mask R-CNN to find microbe colonies.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#instance-segmentation-in-urine-cultures">Instance Segmentation in Urine Cultures</a>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#problem-definition-and-algorithm">Problem Definition and Algorithm</a>
+        <ul>
+          <li><a href="#task-definition">Task Definition</a></li>
+          <li><a href="#algorithm-definition">Algorithm Definition</a></li>
+        </ul>
+      </li>
+      <li><a href="#experimental-evaluation">Experimental Evaluation</a>
+        <ul>
+          <li><a href="#methodology">Methodology</a></li>
+          <li><a href="#results">Results</a></li>
+          <li><a href="#discussion">Discussion</a></li>
+        </ul>
+      </li>
+      <li><a href="#references">References</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h1 id="instance-segmentation-in-urine-cultures">Instance Segmentation in Urine Cultures</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Urinary tract infections are extremely common, with a lifetime risk estimated to be as high as 1 in 2. Roughly 150 million UTIs occur world wide yearly, costing about $6 billion in healthcare expenditures. However, the symptoms of urinary tract infections (namely, pain upon urination) are not unique to UTIs, alone. Many of the symptoms associated with UTIs, which are caused primarily by e.coli, are also common with yeast infections, chlamydia, herpes, gonorrhea, or vaginitis. These diseases require their own specific medication in order to be effectively treated.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Prescribing the appropriate medication is also particularly important to limit the growth and spread of drug-resistant strains of harmful microorganisms. 
+Currently, urine cultures can be used to screen for all of the mentioned pathogens. The patient submits a clean-catch urine sample, which is deposited on a petri dish, and cultured for at least 24 hours. Then a trained medical professional must analyze the sample and identify the bacteria and/or yeast strains that have grown by comparing them to referential images. After identifying the microbe type, the number of colonies on a small section of the Petri dish are measured in order to produce an estimate of how many bacteria exist in the urine, and, correspondingly, the severity of the infection.
+Here, we show that Mask R-CNN has potential for use in not only classifying the type of microbe growing in a Petri dish and the number of colonies, but also finding where the colonies exist on a pixel level.</p>
+
+<h2 id="problem-definition-and-algorithm">Problem Definition and Algorithm</h2>
+
+<h3 id="task-definition">Task Definition</h3>
+
+<p>The University of Vermont Medical Center has taken 83 images of urine cultures grown on both MacConkey and blood agar, with microbe types classified by a trained medical professional. Images are taken using a bucket of light approach for better quality.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<figure class="half ">
+  
+    
+      <img src="/assets/images/microbes/macconkey.png" alt="" />
+    
+  
+    
+      <img src="/assets/images/microbes/blood.png" alt="" />
+    
+  
+  
+    <figcaption>Examples of images in the dataset. The MacConkey agar is pink, while the blood is red.
+</figcaption>
+  
+</figure>
+
+<p>Each Petri dish picture was split 8x8 to make 64 smaller images, for easier annotation and to reduce the ratio between colony size and image size. Images were then annotated by hand using VGG Image Annotator.</p>
+
+<figure class="">
+  <img src="/assets/images/microbes/labeling.png" alt="" />
+  
+    <figcaption>The VGG Image Annotator interface.
+</figcaption>
+  
+</figure>
+
+<figure class="">
+  <img src="/assets/images/microbes/labeled.png" alt="" />
+  
+    <figcaption>Creating masks to use for training.
+</figcaption>
+  
+</figure>
+
+<p>Although, ultimately, only the microbe type and microbe count are used for medical diagnoses, it may be valuable in future research to also be able to segment each instance of a microbe colony. This data can then be used to model how bacteria grow and compete for resources in vitro. Therefore, this is not only a classification or counting problem, but an instance segmentation problem.</p>
+
+<p>We wish to use machine learning techniques to classify each microbe colony based on organism type, place bounding boxes around each colony, and predict at the pixel level where each colony is located in relation to the background agar.</p>
+
+<h3 id="algorithm-definition">Algorithm Definition</h3>
+
+<p>Mask R-CNN, developed by Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Girshick, can accomplish all three of our goals for instance segmentation (classification, bounding boxes, and masking).<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> Mask R-CNN extends Faster R-CNN by adding a branch for predicting segmentation masks on each region of interest, in parallel with the existing branch for classification and bounding box regression. Classification doesn’t depend on mask predictions, but happens in parallel. The mask branch is a small fully connected network applied to each RoI, predicting a segmentation mask in a pixel-to-pixel manner. This type of architecture is also highly flexible, and results may be improved by changing the underlying architecture.</p>
+
+<figure class="">
+  <img src="/assets/images/microbes/maskrcnn.png" alt="" />
+  
+</figure>
+
+<h2 id="experimental-evaluation">Experimental Evaluation</h2>
+
+<h3 id="methodology">Methodology</h3>
+
+<p>Each Petri dish picture was split into 64 smaller images, for easier annotation and to reduce the ratio between colony size and image size. Half of each culture picture is used for training, a quarter for validation, and a quarter for testing. Due to sparseness of data and time constraints, only MacConkey-grown cultures of the 4 types acinetobacter baumanni complex, enterobacter cloacae complex, escherichia coli, and klebsiella pneumoniae were used. Pixel-by-pixel labels of where microbe colonies are are labeled by hand. The boxes around each microbe colony are generated from those annotations. I then used Matterport’s Mask R-CNN model, starting with weights pretrained on the COCO dataset.<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> Since this model was already quite well trained, a slow learning rate was used.</p>
+
+<figure class="">
+  <img src="/assets/images/microbes/microbes-table.png" alt="" />
+  
+</figure>
+
+<h3 id="results">Results</h3>
+
+<p>Accurately classifying and counting the number of colonies is the most important task, and fortunately, also the easiest to measure. A simple precision metric can be used for both. It’s important to note that the pixel-by-pixel mask that is used to train the model is generated by a person, and therefore is, itself, fairly inaccurate. Densely packed microbe colonies were difficult to separate into individual colonies, even for hulmans. Comparing the mask that the model generates to that generated by a person therefore would not be the best way to measure accuracy. 
+Currently, this methodology is not classifying up to a medical standard. The classification success is less than 85%, making it worse than patient data such as age and gender at predicting microbe type. Therefore, multiple models were trained, specific to each microbe class. Average precision scores for these models ranged from 62 to 75, while average error count per image was quite low. However, many of these images had no microbe colonies at all, which likely deflated the error count.</p>
+
+<figure class="">
+  <img src="/assets/images/microbes/mask1.png" alt="" />
+  
+</figure>
+
+<figure class="">
+  <img src="/assets/images/microbes/mask2.png" alt="" />
+  
+</figure>
+
+<figure class="">
+  <img src="/assets/images/microbes/mask3.png" alt="" />
+  
+    <figcaption>Examples of the masks produced
+</figcaption>
+  
+</figure>
+
+<h3 id="discussion">Discussion</h3>
+<p>Classification of microbes is a difficult task for current CNNs. They function on the premise that the visible region of the instance of interest contains the necessary information to classify it. However, for individual microbe colonies, the surrounding colonies are often just as important in identifying what they are. Microbes vary in structure based on stress, crowdedness, etc. These images were taken after being grown in a temperature-controlled, nutrient-rich environment for 48 hours, and therefore have more uniformity than is typical for microbes, but were still difficult to classify. Human beings can visually choose the most distinctively easy to classify sections of the Petri dish, and make judgments from there. Algorithms that take context into account, such as proximity to particular classes known to be frequently nearby, may have more success. Microbial classification, counting, and segmentation can be automated with machine learning techniques. Mask R-CNN has much potential in this area.</p>
+
+<h2 id="references">References</h2>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Paolo Andreini, Simone Bonechi, Monica Bianchini, Andrea Garzelli, Alessandro Mecocci, Automatic image classification for the urinoculture screening, In Computers in Biology and Medicine, Volume 70, 2016, Pages 12-22, ISSN 0010-4825, https://doi.org/10.1016/j.compbiomed.2015.12.025. Free access on http://www.sciencedirect.com/science/article/pii/S0010482516000020 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>J.S. Parkinson. A “Bucket of Light” for viewing bacterial colonies in soft agar. Methods 	Enzymol, 423 (2007), pp. 432-435 <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>K. He, G. Gkioxari, P. Dollar, and R. Girshick. Mask R-CNN. arXiv:1703.06870, 2017. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46 <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#image-analysis" class="page__taxonomy-item" rel="tag">image analysis</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#instance-segmentation" class="page__taxonomy-item" rel="tag">instance segmentation</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#neural-network" class="page__taxonomy-item" rel="tag">neural network</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#python" class="page__taxonomy-item" rel="tag">Python</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/zoe-koch-76431063/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://github.com/ZoeKoch" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="mailto:kochzoe@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Zoë Koch. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

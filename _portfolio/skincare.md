@@ -1,9 +1,9 @@
 ---
 title: "Skincare Ingredients"
-excerpt: "Comparing Eastern and Western skincare ingredients."
+excerpt: "How cultural differences affect approaches to skincare"
 layout: single
 header:
-  image: /assets/images/skincare/skinhead.png
+  overlay_image: /assets/images/skincare/skinhead.png
 sidebar:
   - text: "<a href='https://github.com/ZoeKoch/skincare-ingredients/blob/master/skincare_visualization.ipynb'>View the project's code</a>"
 author_profile: true
@@ -15,7 +15,7 @@ tags:
   - Python
 ---
 
-# Comparing Eastern and Western Approaches to Skincare
+# Comparing Eastern and Western Skincare Ingredients
 
 
 [See the visualization here.](https://zoekoch.github.io/assets/gexf-js-master/)
@@ -78,7 +78,7 @@ Rank-size distributions often follow a power law distribution,[^5] and indeed we
 Further highlighting the differences in Eastern and Western approaches to sun protection, nearly five times as many Watsons products were labeled as "sun care." Oil-based moisturizers are trickling into the US market, but are still not as popular, with roughly 8 times as many moisturizers sold by Watsons being categorized as oils. 
 
 {% include figure image_path="/assets/images/skincare/suncaretrue.png" %}
-{% include figure image_path="/assets/images/skincare/numberingredients.jpg" %}
+{% include figure image_path="/assets/images/skincare/trueoils.png" %}
 
 ## Conclusion
 
@@ -95,4 +95,6 @@ The popularity of one skincare ingredient over another in a particular market is
 [^4]: New York Times, Explaining Sunscreen and the New Rules, Jane E. Brody, June 20, 2011 <https://www.nytimes.com/2011/06/21/health/21brody.html>
 
 [^5]: Wikipedia, Rank-size distribution: https://en.wikipedia.org/wiki/Rank-size_distribution
+
+
 
