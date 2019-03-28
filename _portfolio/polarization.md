@@ -84,6 +84,9 @@ Again, we see that varying $m$ is not as significant when $degree$ is small. $P_
 {% include figure image_path="/assets/images/polarization/polarvsDP.svg" alt="" %}
 {% include figure image_path="/assets/images/polarization/polarvsDM.svg" alt="" %}
 
+We can also compare the parameters' "relative influence," based on a Friedman (2001) extension for boosted estimates. 
+{% include figure image_path="/assets/images/polarization/relative-influence.png" alt="" %}
+
 Did scientists tend to form in close-knit pockets, or were they well-dispersed over the space? We can measure how blended a group of scientists is by checking the entropy. The entropy of a purely random initial map will be around 3. Here we see that, over time, entropy decreases and the communities become more homogenous. It's only when $degree=1$, when scientists are not considering the evidence of their neighbors at all, that entropy actually increases as the scientists become more firmly set in their beliefs. 
 {% include figure image_path="/assets/images/polarization/entropyvsT.svg" alt="" %}
 
