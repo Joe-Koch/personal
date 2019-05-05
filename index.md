@@ -28,7 +28,14 @@ feature_row:
     <br/><b>Tags:</b> <i>simulation, computational modeling, MATLAB </i>"
     url: _portfolio/polarization
     btn_class: "btn--light-outline" 
-    btn_label: "See more"        
+    btn_label: "See more"      
+  - image_path: assets/images/icons/internet-icon.png 
+    title: "Internet Speed Map"
+    excerpt: "A map of the fastest internet speeds available in Vermont.
+    <br/><b>Tags:</b> <i>geographical data, R, SQL, Geopackage, CARTO </i>"
+    url: _portfolio/internet-map
+    btn_class: "btn--light-outline" 
+    btn_label: "See more"    
   - image_path: assets/images/icons/political-icon.jpg
     title: "Classifying Politicians' Tweets"
     excerpt: "An example of a text-based classification problem on politicians' social media posts.
@@ -43,12 +50,6 @@ feature_row:
     url: _portfolio/comment-generator
     btn_class: "btn--light-outline" 
     btn_label: "See more"   
-  - image_path: assets/images/icons/mealprep-icon.jpg
-    title: "(Coming Soon)
-    <br/>Meal Prepping App"
-    excerpt: "A kivy-based meal prepping app for Android, iOS, Linux, OS X, and Windows."
-    btn_class: "btn--light-outline" 
-    btn_label: "Coming soon"   
 ---
 
 ## Some projects you might find interesting
