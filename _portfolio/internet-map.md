@@ -2,8 +2,6 @@
 layout: single
 title: "Internet Speeds in Rural Areas"
 excerpt: "A map showing the fastest internet speeds available in New Hampshire and Vermont."
-header:
-  overlay_image: /assets/images/polarization/large25.gif
 author_profile: true
 sidebar:
   - text: "<a href='https://github.com/ZoeKoch/rural-internet'>View the project's code</a>"
