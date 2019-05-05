@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+>>>>>>> 099e884b2caa4943ac2b8072a4dbfa7caabc4f12
