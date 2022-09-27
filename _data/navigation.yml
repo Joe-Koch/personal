@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: https://zoekoch.github.io
-  - title: "Résumé"
+  - title: "My Resume"
     url: /assets/koch-resume.pdf
   - title: "About Me"
     url: /about/
