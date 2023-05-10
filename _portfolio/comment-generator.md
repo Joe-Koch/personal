@@ -4,7 +4,7 @@ title: Reddit Generator
 excerpt: "Teaching a machine to shitpost."
 author_profile: true
 sidebar:
-  - text: "<a href='https://github.com/ZoeKoch/reddit-comment-generator/blob/master/generator.ipynb'>View the project's code</a>"
+  - text: "<a href='https://github.com/Joe-Koch/reddit-comment-generator/blob/master/generator.ipynb'>View the project's code</a>"
 toc: true
 tags:
   - neural network
@@ -42,7 +42,7 @@ Double hidden units example:
 > She the,.o
 >nt? sole_t0Ps poug.tent would acsid tond preomero Ive poont5 gorselacen uaven Anare a le sheKqu. Pho fo you gols onen's at     (feroraideo iI ctus) Georipr, I mave mLofis 1] st and _ling. Yt; me touebpores or thete aod to out tha wW scactoneld barangion d red inking go s but thay7el at on thlocreoblyoo at Yea lit?
 
-> I jusle shat and the woon pre, Doncerfer a tivend I don, wxer the hM ?.Eoe. 
+> I jusle shat and the woon pre, Doncerfer a tivend I don, wxer the hM ?.Eoe.
 
 {% include figure image_path="/assets/images/reddit/loss3.png" alt=""%}
 

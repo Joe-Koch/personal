@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Zoe Koch
+title: Joe Koch
 author_profile: false
 header:
   overlay_image: /assets/images/angels-landing.jpg

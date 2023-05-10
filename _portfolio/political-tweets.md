@@ -6,7 +6,7 @@ author_profile: true
 sidebar:
   - title: "Co-Author"
     text: "<a href='https://www.linkedin.com/in/abecker93/'>Andrew Becker</a>"
-  - text: "<a href='https://github.com/ZoeKoch/politicians-tweet-classifier/blob/master/text_modeling.R'>View the project's code</a>"
+  - text: "<a href='https://github.com/Joe-Koch/politicians-tweet-classifier/blob/master/text_modeling.R'>View the project's code</a>"
 toc: true
 tags:
   - statistical learning

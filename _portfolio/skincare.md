@@ -5,7 +5,7 @@ layout: single
 header:
   overlay_image: /assets/images/skincare/skinhead.png
 sidebar:
-  - text: "<a href='https://github.com/ZoeKoch/skincare-ingredients/blob/master/skincare_visualization.ipynb'>View the project's code</a>"
+  - text: "<a href='https://github.com/Joe-Koch/skincare-ingredients/blob/master/skincare_visualization.ipynb'>View the project's code</a>"
 author_profile: true
 toc: true
 tags:
@@ -18,7 +18,7 @@ tags:
 # Comparing Eastern and Western Skincare Ingredients
 
 
-[See the visualization here.](https://zoekoch.github.io/assets/gexf-js-master/)
+[See the visualization here.](https://Joe-Koch.github.io/assets/gexf-js-master/)
 
 
 ## Background

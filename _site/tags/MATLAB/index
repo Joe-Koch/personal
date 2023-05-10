@@ -9,14 +9,14 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>MATLAB - Zoë Koch</title>
+<!-- begin _includes/seo.html --><title>MATLAB - Joe Koch</title>
 <meta name="description" content="Some projects to check out">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Zoë Koch">
+<meta property="og:site_name" content="Joe Koch">
 <meta property="og:title" content="MATLAB">
 <meta property="og:url" content="http://localhost:4000/tags/MATLAB/">
 
@@ -48,7 +48,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "name": "Zoë Koch",
+      "name": "Joe Koch",
       "url": "http://localhost:4000",
       "sameAs": null
     }
@@ -63,7 +63,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Zoë Koch Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Joe Koch Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -113,9 +113,9 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">Zoë Koch</a>
+        <a class="site-title" href="/">Joe Koch</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://zoekoch.github.io" >Home</a>
+              <a href="https://joe-koch.github.io/personal/" >Home</a>
             </li><li class="masthead__menu-item">
               <a href="/assets/koch-resume.pdf" >Résumé</a>
             </li><li class="masthead__menu-item">
@@ -173,11 +173,11 @@
     
       
         
-          <li><a href="https://www.linkedin.com/in/zoe-koch-76431063/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          <li><a href="https://www.https://www.linkedin.com/in/joe-koch-76431063/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
         
       
         
-          <li><a href="https://github.com/ZoeKoch" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/Joe-Koch" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -190,7 +190,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 Zoë Koch. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2019 Joe Koch. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/microbes/microbe-header.png
 author_profile: true
 sidebar:
-  - text: "<a href='https://github.com/ZoeKoch/microbe-masking/blob/master/inspect_balloon_model.ipynb'>View the project's code</a>"
+  - text: "<a href='https://github.com/Joe-Koch/microbe-masking/blob/master/inspect_balloon_model.ipynb'>View the project's code</a>"
 toc: true
 related: true
 tags:

@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/polarization/large25.gif
 author_profile: true
 sidebar:
-  - text: "<a href='https://github.com/ZoeKoch/polarization/blob/master/fastpolarize.m'>View the project's code</a>"
+  - text: "<a href='https://github.com/Joe-Koch/polarization/blob/master/fastpolarize.m'>View the project's code</a>"
 toc: true
 tags:
   - simulation

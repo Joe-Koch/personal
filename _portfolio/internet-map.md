@@ -4,7 +4,7 @@ title: "Internet Speeds in Rural Areas"
 excerpt: "A map showing the fastest internet speeds available in New Hampshire and Vermont."
 author_profile: true
 sidebar:
-  - text: "<a href='https://github.com/ZoeKoch/rural-internet'>View the project's code</a>"
+  - text: "<a href='https://github.com/Joe-Koch/rural-internet'>View the project's code</a>"
 toc: true
 tags:
   - geographical data

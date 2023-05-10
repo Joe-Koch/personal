@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zoë Koch"
+title                    : "Joe Koch"
 title_separator          : "-"
-name                     : "Zoë Koch"
+name                     : "Joe Koch"
 description              : "Some projects to check out"
-url                      : "https://zoekoch.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://joe-koch.github.io/personal" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "ZoeKoch/zoekoch.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Joe-Koch/personal" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/angels-landing.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zoë Koch"
+  name             : "Joe Koch"
   avatar           : "/assets/images/redwood-selfie.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Machine Learning / Data Science / Storytelling"
 #   location         : "Somewhere"
@@ -114,26 +114,26 @@ author:
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin" #fa fa-linkedin-square fa fa-linkedin-square fab fa-linkedin
-      url: "https://www.linkedin.com/in/zoe-koch-76431063/"
+      url: "https://www.linkedin.com/in/joe-koch-76431063/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ZoeKoch"
+      url: "https://github.com/Joe-Koch"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:kochzoe@gmail.com
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
-#       url: "https://zoekoch.github.io"
+#       url: "https://Joe-Koch.github.io"
 
 # Site Footer
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin" #fa fa-linkedin-square fa fa-linkedin-square
-      url: "https://www.linkedin.com/in/zoe-koch-76431063/"
+      url: "https://www.linkedin.com/in/joe-koch-76431063/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ZoeKoch"
+      url: "https://github.com/Joe-Koch"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:kochzoe@gmail.com
