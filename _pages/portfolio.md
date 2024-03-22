@@ -6,11 +6,11 @@ author_profile: false
 feature_row:
   - image_path: assets/images/icons/lds-lgbt-icon.jpg
     title: "LDS Dicussion on LGBT Issues"
-    excerpt: "Historical analysis of reddit discourse regarding LGBT issues on the LDS-related subreddits."
+    excerpt: "Historical analysis of reddit discourse regarding LGBT issues on the LDS-related subreddits.
     <br/><b>Tags:</b> <i>Dagster, DuckDB, data visualization, Python </i>"
     url: _portfolio/lds-lgbt-reddit-analysis
     btn_class: "btn--light-outline" 
-    btn_label: "See more"  
+    btn_label: "See more"   
   - image_path: assets/images/icons/skincare-icon.jpg
     title: "Skincare Ingredients"
     excerpt: "A visualization of ingredients used in American and Asian skincare products.

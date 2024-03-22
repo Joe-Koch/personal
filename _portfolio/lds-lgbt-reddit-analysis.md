@@ -19,12 +19,12 @@ tags:
 
 ## Results
 
-<iframe src="https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/" width="700" height="400"></iframe>
+<iframe src="https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/" width="500" height="400"></iframe>
 
-You can also intereact with the streamlit app on streamlit sharing [here](https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/). Clicking on a cluster will show the summary and some sample reddit comments from the cluster.
+You can also interact with the streamlit app on streamlit sharing [here](https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/). Clicking on a cluster will show the summary and some sample reddit comments from the cluster.
 
 
-### Interesting findings:
+### Interesting findings
 - Many of the clusters seemed to respond to current events like The Boy Scouts of America rescinding the long-standing ban on openly homosexual youth in the program, publicized suicides and studies on gay suicide, and California's Prop 8. 
 - Spikes in calls for no personal attacks immediately follow spikes in sarcastic comments.
 - Predictably, r/exmormon had the most discussion on leaving the faith.
@@ -45,7 +45,7 @@ In a nutshell, this project uses Dagster to create a pipeline that:
 
 IMO, the code itself was more interesting than the final visualization. You can check out a detailed description highlighting the best features, as well as the code, [on github](https://github.com/Joe-Koch/mormon-queer-analysis). 
 
-# The stack
+### The stack
 
 - [Dagster](https://dagster.io/): data orchestration. A more modern Airflow alternative, Dagster's doing most of the heavy lifting in this project
 - [dbt](https://www.getdbt.com/product/what-is-dbt): data build tool 
