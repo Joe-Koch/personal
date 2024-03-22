@@ -2,9 +2,9 @@
 main:
   - title: "Home"
     url: https://joe-koch.github.io/personal/
-  - title: "My Resume"
-    url: /assets/koch-resume.pdf
   - title: "About Me"
     url: /about/
   - title: "Projects"
     url: /portfolio/
+  - title: "My Resume"
+    url: /assets/koch-resume.pdf
