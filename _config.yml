@@ -107,8 +107,8 @@ analytics:
 # Site Author
 author:
   name             : "Joe Koch"
-  avatar           : "/assets/images/redwood-selfie.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Machine Learning / Data Science / Storytelling"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "ML Engineering | MLOps | ML Platforms"
 #   location         : "Somewhere"
 #  email            : "kochzoe@gmail.com"
   links:
