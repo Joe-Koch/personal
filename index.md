@@ -11,7 +11,7 @@ feature_row:
     title: "LDS Dicussion on LGBT Issues"
     excerpt: "Historical analysis of reddit discourse regarding LGBT issues on the LDS-related subreddits.
     <br/><b>Tags:</b> <i>Dagster, DuckDB, data visualization, Python </i>"
-    url: _portfolio/lds-lgbt
+    url: _portfolio/lds-lgbt-reddit-analysis
     btn_class: "btn--light-outline" 
     btn_label: "See more"    
   - image_path: assets/images/icons/skincare-icon.jpg
