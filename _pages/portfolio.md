@@ -54,12 +54,6 @@ feature_row:
     url: _portfolio/comment-generator
     btn_class: "btn--light-outline" 
     btn_label: "See more"   
-  - image_path: assets/images/icons/mealprep-icon.jpg
-    title: "(Coming Soon)
-    <br/>Meal Prepping App"
-    excerpt: "A kivy-based meal prepping app for Android, iOS, Linux, OS X, and Windows."
-    btn_class: "btn--light-outline" 
-    btn_label: "Coming soon"   
 ---
 
 {% include feature_row %}

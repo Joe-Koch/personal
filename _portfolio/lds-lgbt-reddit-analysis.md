@@ -19,7 +19,7 @@ tags:
 
 ## Results
 
-<iframe src="https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/" width="500" height="400"></iframe>
+<iframe src="https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/?embed=true" width="500" height="400"></iframe>
 
 You can also interact with the streamlit app on streamlit sharing [here](https://lds-lgbt-app-algl4vdm3jedzrnpc3alh9.streamlit.app/). Clicking on a cluster will show the summary and some sample reddit comments from the cluster.
 
