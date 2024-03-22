@@ -3,9 +3,9 @@ layout: splash
 title: Joe Koch
 author_profile: false
 header:
-  overlay_image: /assets/images/angels-landing.jpg
+  overlay_image: /assets/images/bells-canyon.jpg
 excerpt: 
-  Machine Learning / Data Science / Storytelling
+  ML Engineering | MLOps | ML Platforms
 feature_row:
   - image_path: assets/images/icons/skincare-icon.jpg
     title: "Skincare Ingredients"

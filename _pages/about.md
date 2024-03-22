@@ -5,22 +5,22 @@ author_profile: true
 title: "About Me"
 excerpt: "About me"
 gallery1:
-  - image_path: /assets/images/about/insta01.png
-  - image_path: /assets/images/about/insta02.png
-  - image_path: /assets/images/about/insta03.png
-  - image_path: /assets/images/about/insta04.png
-  - image_path: /assets/images/about/insta05.png
-  - image_path: /assets/images/about/insta06.png
-  - image_path: /assets/images/about/insta07.png
-  - image_path: /assets/images/about/insta08.png
-  - image_path: /assets/images/about/insta09.png
+  - image_path: /assets/images/about/insta01.jpg
+  - image_path: /assets/images/about/insta02.jpg
+  - image_path: /assets/images/about/insta03.jpg
+  - image_path: /assets/images/about/insta04.jpg
+  - image_path: /assets/images/about/insta05.jpg
+  - image_path: /assets/images/about/insta06.jpg
+  - image_path: /assets/images/about/insta07.jpg
+  - image_path: /assets/images/about/insta08.jpg
+  - image_path: /assets/images/about/insta09.jpg
 ---
 
-I have a master's in applied math from the University of Vermont, where I learned a lot about AI. Before grad school, I automated workload processes at Goldman Sachs, interned as a quantitative analyst at Zions Bancorporation, and worked on a statistical consulting project for eBay. 
+Hey, I'm Joe. I'm a senior machine learning engineer based out of Salt Lake City, specializing in the ops, platforms, and infrastructure side of ML. My background's mostly in finance, including companies like Mastercard, Goldman Sachs, eBay, and Zions Bancorporation. Passionate about harnessing modern tools, I actively explore and advocate for technologies that not only enhance our work efficiency but also replace frustration with a sense of joy in our daily tasks. Culturally, I prioritize psychological safety, fostering an environment where the team feels empowered to take risks, share ideas, and seek feedback. 
 
 When I'm not coding, you can find me:
-* Cooking from scratch (stopping just short of creating the universe). Right now I'm all about fermentation, be that turning apples to vinegar, making ropy Finnish yogurt, or baking 100% whole wheat bread that passes the windowpane test.
-* Cuddling my sweet kitties.
-* Outdoors.
+* Hiking and biking in Utah's mountains 
+* Listening to ~100 audiobooks per year 
+* Researching whatever's interesting, from gender theory to anime soundtracks
 
 {% include gallery id="gallery1" %}
