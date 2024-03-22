@@ -20,7 +20,7 @@ Hey, I'm Joe. I'm a senior machine learning engineer based out of Salt Lake City
 
 When I'm not coding, you can find me:
 * Hiking and biking in Utah's mountains 
-* Listening to ~100 audiobooks per year 
-* Researching whatever's interesting, from gender theory to anime soundtracks
+* Reading a ridiculous number of audiobooks 
+* Falling into deep dives and wikipedia holes researching whatever's interesting, from gender theory to anime soundtracks
 
 {% include gallery id="gallery1" %}
