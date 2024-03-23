@@ -15,7 +15,7 @@ tags:
   - Python
 ---
 
-## Background
+## Inspiration for this project
 I recently got on Facebook for the first time in years, and was really moved by the conversations I saw there. I've read about Facebook algorithms promoting divisive content and outrage baiting, so I wasn't expecting to see real, vulnerable conversations from my Mormon-raised high school friends about regrets about homophobic views held in the past, respecting choices to leave the church as well as choices to stay and promote change from within, self reflection on how the church has shaped them and how our actions affect others, and just so much honesty and empathy. 
 
 I was looking for a project to try out some of Dagster's capabilities, and their conversations inspired me to do cluster analysis on LGBT-related discourse on LDS-related subreddits to try to quantify how common these conversations are, and how they've evolved over the last couple decades.
