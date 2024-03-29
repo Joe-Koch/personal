@@ -29,7 +29,7 @@ A curated list of SWE resources that made an impact on me.
 
 - ### This Dilbert Comic
   Wisdom passed down to me from an old mentor.
-  {% include figure image_path="assets/images/whatcolordatabase.webp" alt=""%}
+  {% include figure image_path="assets/images/blog/whatcolordatabase.webp" alt=""%}
 
 - ### [Meetup | Find Local Groups, Events, and Activities Near You](https://www.meetup.com)
   The best resource of all: other people. Join groups like Utah Data Engineers, Women Who Go, or MLOps and AI Developers to find meetups near you.
