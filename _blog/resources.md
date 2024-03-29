@@ -3,8 +3,9 @@ layout: single
 title: Resources
 excerpt: "A curated list of SWE resources that made an impact on me."
 author_profile: true
-toc: true
+toc: false
 ---
+A curated list of SWE resources that made an impact on me.
 
 - ### [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
   This free course from MIT covers holes that might exist in a CS education, and definitely exist in a math education. Made to "teach you how to master the command-line, use a powerful text editor, use fancy features of version control systems, and much more!", it makes the world outside of user-friendly GUI's more inviting, and answers questions like What do the numbers mean when you're port-forwarding a docker container? What does running `. my_filename` do, and why is it part of so many download instructions? Is learning vim worth it? Going through the resources made me feel more confident as a software engineer.
@@ -28,7 +29,7 @@ toc: true
 
 - ### This Dilbert Comic
   Wisdom passed down to me from an old mentor.
-  {% include figure image_path="assets/images/whatcolordatabase.webp"%}
+  {% include figure image_path="assets/images/whatcolordatabase.webp" alt=""%}
 
 - ### [Meetup | Find Local Groups, Events, and Activities Near You](https://www.meetup.com)
   The best resource of all: other people. Join groups like Utah Data Engineers, Women Who Go, or MLOps and AI Developers to find meetups near you.
