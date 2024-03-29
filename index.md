@@ -14,6 +14,12 @@ feature_row:
     url: _portfolio/lds-lgbt-reddit-analysis
     btn_class: "btn--light-outline" 
     btn_label: "See more"    
+  - image_path: assets/images/blog/resources.webp
+    title: "Resources I Recommend"
+    excerpt: "A curated list of SWE resources that made an impact on me."
+    url: _blog/resources
+    btn_class: "btn--light-outline" 
+    btn_label: "See more"  
 ---
 
 ## My most recent projects and blogs

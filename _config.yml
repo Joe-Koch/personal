@@ -143,6 +143,7 @@ include:
   - .htaccess
   - _pages
   - _portfolio
+  - _blog
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -289,6 +290,9 @@ defaults:
   
 collections:
   _portfolio:
+    output: true
+    permalink: /:collection/:path/
+  _blog:
     output: true
     permalink: /:collection/:path/
       

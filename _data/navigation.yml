@@ -6,5 +6,7 @@ main:
     url: /about/
   - title: "Projects"
     url: /portfolio/
+  - title: "Blog"
+    url: /blog/
   - title: "My Resume"
     url: /assets/koch-resume.pdf
