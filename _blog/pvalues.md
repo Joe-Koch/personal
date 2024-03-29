@@ -1,6 +1,10 @@
-# Explaining P-Values to PM’s
-
-When explaining technical concepts to non-technical people, **don’t answer what it is, answer what they need to know about it.**
+---
+layout: single
+title: Explaining P-Values to PM’s
+excerpt: "When explaining technical concepts to non-technical people, **don’t answer what it is, answer what they need to know about it.**"
+author_profile: true
+toc: false
+---
 
 Sometimes, you need to define technical concepts for non-technical people. Maybe you’re explaining the results of a hypothesis test, and the project manager asks:
 

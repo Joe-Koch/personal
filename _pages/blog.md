@@ -13,7 +13,7 @@ feature_row:
   - image_path: assets/images/blog/pvalues.webp
     title: "Explaining P-Values to PM’s"
     excerpt: "When explaining technical concepts to non-technical people, don’t answer what it is, answer what they need to know about it."
-    url: _blog/pvalue
+    url: _blog/pvalues
     btn_class: "btn--light-outline" 
     btn_label: "See more"    
 ---
